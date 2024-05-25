@@ -1,0 +1,73 @@
+#root {
+  max-width: 800px; /* Adjusted for readability */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 4em; /* Reduced size for a more subtle appearance */
+  padding: 1em;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 1em #646cffaa); /* Reduced shadow size */
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 1em #61dafbaa); /* Reduced shadow size */
+}
+
+.card {
+  padding: 1.5em; /* Reduced padding for a sleeker look */
+  border: 1px solid #ccc; /* Added border for a formal touch */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 2em; /* Added space between cards */
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.con {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+
+}
+
+.input-group {
+  margin-bottom: 1em; /* Added space between input groups */
+}
+
+.input-group label {
+  display: block; /* Make labels block-level for consistent spacing */
+  margin-bottom: 0.5em; /* Added space below labels */
+  color: #333; /* Darkened label color for better readability */
+}
+
+.input-group input {
+  width: 100%; /* Make inputs fill their container */
+  padding: 0.5em; /* Added padding for better input appearance */
+  border: 1px solid #ccc; /* Added border for input boxes */
+  border-radius: 4px; /* Rounded input corners */
+}
+
+.button {
+  padding: 0.5em 1em; /* Added padding for button appearance */
+  background-color: #007bff; /* Blue button color */
+  color: white; /* White text color */
+  border: none; /* Removed button border */
+  border-radius: 4px; /* Rounded button corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+ul{
+  text-decoration: none;
+}
